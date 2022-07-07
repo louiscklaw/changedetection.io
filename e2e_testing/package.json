@@ -11,7 +11,7 @@
   },
   "type": "commonjs",
   "scripts": {
-    "test:changedetect_helloworld": "npx wdio run wdio.conf.js --spec changedetectHelloworld.spec.js",
+    "test:changedetect_issue_741": "npx wdio run wdio.conf.js --spec changedetect_issue_741.spec.js",
     "allure:serve": "npx allure serve allure-results",
     "allure:generate": "npx allure generate allure-results --clean",
     "gitSync": "git fetch --all && git pull",
