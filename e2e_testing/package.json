@@ -14,8 +14,8 @@
     "test:changedetect_helloworld": "npx wdio run wdio.conf.js --spec changedetectHelloworld.spec.js",
     "allure:serve": "npx allure serve allure-results",
     "allure:generate": "npx allure generate allure-results --clean",
-    "gitSync":"git fetch --all && git pull",
-    "gitUpdate":"git add . && git commit -m\"update e2e test\" && yarn gitSync && git push"
+    "gitSync": "git fetch --all && git pull",
+    "gitUpdate": "git add . && git commit -m\"update e2e test\" && yarn gitSync && git push"
   },
   "dependencies": {
     "allure-commandline": "^2.17.2",
@@ -27,6 +27,7 @@
     "pdf-parse": "^1.1.1",
     "prodperfect-mailsac": "^0.0.9",
     "read-excel-file": "^5.3.4",
-    "unique-names-generator": "^4.7.1"
+    "unique-names-generator": "^4.7.1",
+    "wdio-video-reporter": "^3.2.1"
   }
 }

@@ -1,3 +1,7 @@
+**/*.log
+yarn.lock
+**/_results_/
+**/*.mp4
 screenshots/*.png
 **/*.del
 
