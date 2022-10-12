@@ -1,0 +1,25 @@
+{
+  "name": "changedetection.io",
+  "version": "1.0.0",
+  "description": "Live your data-life pro-actively, track website content changes and receive notifications via Discord, Email, Slack, Telegram and 70+ more",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker_rebuild": "docker compose up -d --build",
+    "into_docker": "docker compose exec -it changedetection bash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louiscklaw/changedetection.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louiscklaw/changedetection.io/issues"
+  },
+  "homepage": "https://github.com/louiscklaw/changedetection.io#readme"
+}

@@ -1,5 +1,5 @@
 # pip dependencies install stage
-FROM python:3.8-slim as builder
+FROM python:3.8-slim-buster as builder
 
 # rustc compiler would be needed on ARM type devices but theres an issue with some deps not building..
 ARG CRYPTOGRAPHY_DONT_BUILD_RUST=1
@@ -27,7 +27,7 @@ RUN pip install --target=/dependencies playwright~=1.26 \
     || echo "WARN: Failed to install Playwright. The application can still run, but the Playwright option will be disabled."
 
 # Final image stage
-FROM python:3.8-slim
+FROM python:3.8-slim-buster
 
 # Actual packages needed at runtime, usually due to the notification (apprise) backend
 # rustc compiler would be needed on ARM type devices but theres an issue with some deps not building..
@@ -59,8 +59,12 @@ EXPOSE 5000
 
 # The actual flask app
 COPY changedetectionio /app/changedetectionio
+
 # The eventlet server wrapper
 COPY changedetection.py /app/changedetection.py
+
+# COPY scripts/up_changedetect.sh /app/up_changedetect.sh
+# RUN chmod +x /app/up_changedetect.sh
 
 WORKDIR /app
 
