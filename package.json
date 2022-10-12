@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier_format": "prettier --write **/*.html",
     "docker_rebuild": "docker compose up -d --build",
     "into_docker": "docker compose exec -it changedetection bash"
   },
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/louiscklaw/changedetection.io/issues"
   },
-  "homepage": "https://github.com/louiscklaw/changedetection.io#readme"
+  "homepage": "https://github.com/louiscklaw/changedetection.io#readme",
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
 }
