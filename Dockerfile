@@ -54,7 +54,7 @@ ENV PYTHONPATH=/usr/local
 
 EXPOSE 5000
 
-ARG change=1
+ARG src_change=2
 
 # The actual flask app
 COPY changedetectionio /app/changedetectionio
