@@ -39,10 +39,22 @@
         {% if has_password and not current_user.is_authenticated %}
           <a class="pure-menu-heading" href="https://github.com/dgtlmoon/changedetection.io" rel="noopener">
             <strong>Change</strong>Detection.io</a>
+
         {% else %}
           <a class="pure-menu-heading" href="{{url_for('index')}}">
             <strong>Change</strong>Detection.io</a>
         {% endif %}
+
+
+
+        {% with messages = get_flashed_messages(with_categories = true) %}
+          {% if messages %}
+              {% for category, message in messages %}
+                <div class="pure-menu-heading {{ category }}">{{ message }}</div>
+              {% endfor %}
+          {% endif %}
+        {% endwith %}
+
         {% if current_diff_url %}
           <a class="current-diff-url" href="{{ current_diff_url }}">
             <span style="max-width: 30%; overflow: hidden">{{ current_diff_url }}</span></a>
@@ -119,29 +131,22 @@
         <a href="https://changedetection.io/?ref={{guid}}">Let us host your instance!</a>
       </div>
     {% endif %}
+    
     {% if left_sticky %}
       <div class="sticky-tab" id="left-sticky">
         <a href="{{url_for('preview_page', uuid=uuid)}}">Show current snapshot</a>
       </div>
     {% endif %}
+    
     {% if right_sticky %}
       <div class="sticky-tab" id="right-sticky">{{ right_sticky }}</div>
     {% endif %}
+
     <section class="content">
       <header>
         {% block header %}{% endblock %}
       </header>
 
-      {% with messages = get_flashed_messages(with_categories = true) %}
-      {% if
-      messages %}
-        <ul class="messages">
-          {% for category, message in messages %}
-            <li class="{{ category }}">{{ message }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-      {% endwith %}
       {% if session['share-link'] %}
         <ul class="messages with-share-link">
           <li class="message">
@@ -151,6 +156,7 @@
           </li>
         </ul>
       {% endif %}
+
       {% block content %}{% endblock %}
     </section>
     <script src="{{url_for('static_content', group='js', filename='toggle-theme.js')}}" defer></script>

@@ -1278,7 +1278,9 @@ def changedetection_app(config=None, datastore_o=None):
                 if watch_uuid not in running_uuids and not datastore.data['watching'][watch_uuid]['paused']:
                     update_q.put(queuedWatchMetaData.PrioritizedItem(priority=1, item={'uuid': watch_uuid, 'skip_when_checksum_same': False}))
                     i += 1
+        
         flash("{} watches queued for rechecking.".format(i))
+
         return redirect(url_for('index', tag=tag))
 
     @app.route("/form/checkbox-operations", methods=['POST'])

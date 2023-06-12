@@ -1,0 +1,24 @@
+{
+  "name": "changedetection.io",
+  "version": "1.0.0",
+  "description": "```bash $ ./test.sh $ npm run watch:bs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:bs": "npx browser-sync start -h 0.0.0.0 --proxy 'localhost:5000' --files \"./changedetectionio/**/*.py\" --files \"./changedetectionio/**/*.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louiscklaw/changedetection.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louiscklaw/changedetection.io/issues"
+  },
+  "homepage": "https://github.com/louiscklaw/changedetection.io#readme"
+}
