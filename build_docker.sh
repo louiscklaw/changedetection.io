@@ -3,4 +3,4 @@
 set -x
 
 docker build . -t logickee/changedetect
-docker push -t logickee/changedetect
+docker push logickee/changedetect
