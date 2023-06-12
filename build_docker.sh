@@ -2,5 +2,6 @@
 
 set -x
 
-docker build . -t logickee/changedetect
+docker build --no-cache . -t logickee/changedetect
+
 docker push logickee/changedetect
