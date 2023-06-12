@@ -39,24 +39,22 @@ function isItemInStock() {
     'zur zeit nicht an lager',
   ];
 
-
-  const negateOutOfStockRegexs = [
-      '[0-9] in stock'
-  ]
+  const negateOutOfStockRegexs = ['[0-9] in stock'];
   var negateOutOfStockRegexs_r = [];
   for (let i = 0; i < negateOutOfStockRegexs.length; i++) {
     negateOutOfStockRegexs_r.push(new RegExp(negateOutOfStockRegexs[0], 'g'));
   }
 
-
-  const elementsWithZeroChildren = Array.from(document.getElementsByTagName('*')).filter(element => element.children.length === 0);
+  const elementsWithZeroChildren = Array.from(document.getElementsByTagName('*')).filter(
+    element => element.children.length === 0,
+  );
 
   // REGEXS THAT REALLY MEAN IT'S IN STOCK
   for (let i = elementsWithZeroChildren.length - 1; i >= 0; i--) {
     const element = elementsWithZeroChildren[i];
     if (element.offsetWidth > 0 || element.offsetHeight > 0 || element.getClientRects().length > 0) {
-      var elementText="";
-      if (element.tagName.toLowerCase() === "input") {
+      var elementText = '';
+      if (element.tagName.toLowerCase() === 'input') {
         elementText = element.value.toLowerCase();
       } else {
         elementText = element.textContent.toLowerCase();
@@ -77,8 +75,8 @@ function isItemInStock() {
   for (let i = elementsWithZeroChildren.length - 1; i >= 0; i--) {
     const element = elementsWithZeroChildren[i];
     if (element.offsetWidth > 0 || element.offsetHeight > 0 || element.getClientRects().length > 0) {
-      var elementText="";
-      if (element.tagName.toLowerCase() === "input") {
+      var elementText = '';
+      if (element.tagName.toLowerCase() === 'input') {
         elementText = element.value.toLowerCase();
       } else {
         elementText = element.textContent.toLowerCase();

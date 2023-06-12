@@ -7,5 +7,5 @@ The concept here is to be able to switch between different domain specific probl
 
 Some suggestions for the future
 
-- `graphical` 
+- `graphical`
 - `restock_and_price` - extract price AND stock text

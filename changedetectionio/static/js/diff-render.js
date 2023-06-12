@@ -1,12 +1,12 @@
-var a = document.getElementById("a");
-var b = document.getElementById("b");
-var result = document.getElementById("result");
+var a = document.getElementById('a');
+var b = document.getElementById('b');
+var result = document.getElementById('result');
 
 function changed() {
   // https://github.com/kpdecker/jsdiff/issues/389
   // I would love to use `{ignoreWhitespace: true}` here but it breaks the formatting
   options = {
-    ignoreWhitespace: document.getElementById("ignoreWhitespace").checked,
+    ignoreWhitespace: document.getElementById('ignoreWhitespace').checked,
   };
 
   var diff = Diff[window.diffType](a.textContent, b.textContent, options);
@@ -20,14 +20,14 @@ function changed() {
 
     var node;
     if (diff[i].removed) {
-      node = document.createElement("del");
-      node.classList.add("change");
-      const wrapper = node.appendChild(document.createElement("span"));
+      node = document.createElement('del');
+      node.classList.add('change');
+      const wrapper = node.appendChild(document.createElement('span'));
       wrapper.appendChild(document.createTextNode(diff[i].value));
     } else if (diff[i].added) {
-      node = document.createElement("ins");
-      node.classList.add("change");
-      const wrapper = node.appendChild(document.createElement("span"));
+      node = document.createElement('ins');
+      node.classList.add('change');
+      const wrapper = node.appendChild(document.createElement('span'));
       wrapper.appendChild(document.createTextNode(diff[i].value));
     } else {
       node = document.createTextNode(diff[i].value);
@@ -35,7 +35,7 @@ function changed() {
     fragment.appendChild(node);
   }
 
-  result.textContent = "";
+  result.textContent = '';
   result.appendChild(fragment);
 
   // Jump at start
@@ -45,8 +45,8 @@ function changed() {
 
 window.onload = function () {
   /* Convert what is options from UTC time.time() to local browser time */
-  var diffList = document.getElementById("diff-version");
-  if (typeof diffList != "undefined" && diffList != null) {
+  var diffList = document.getElementById('diff-version');
+  if (typeof diffList != 'undefined' && diffList != null) {
     for (var option of diffList.options) {
       var dateObject = new Date(option.value * 1000);
       option.label = dateObject.toLocaleString();
@@ -54,18 +54,16 @@ window.onload = function () {
   }
 
   /* Set current version date as local time in the browser also */
-  var current_v = document.getElementById("current-v-date");
+  var current_v = document.getElementById('current-v-date');
   var dateObject = new Date(newest_version_timestamp * 1000);
   current_v.innerHTML = dateObject.toLocaleString();
-  onDiffTypeChange(
-    document.querySelector('#settings [name="diff_type"]:checked'),
-  );
+  onDiffTypeChange(document.querySelector('#settings [name="diff_type"]:checked'));
   changed();
 };
 
 a.onpaste = a.onchange = b.onpaste = b.onchange = changed;
 
-if ("oninput" in a) {
+if ('oninput' in a) {
   a.oninput = b.oninput = changed;
 } else {
   a.onkeyup = b.onkeyup = changed;
@@ -77,7 +75,7 @@ function onDiffTypeChange(radio) {
   //	document.title = "Diff " + radio.value.slice(4);
 }
 
-var radio = document.getElementsByName("diff_type");
+var radio = document.getElementsByName('diff_type');
 for (var i = 0; i < radio.length; i++) {
   radio[i].onchange = function (e) {
     onDiffTypeChange(e.target);
@@ -85,11 +83,11 @@ for (var i = 0; i < radio.length; i++) {
   };
 }
 
-document.getElementById("ignoreWhitespace").onchange = function (e) {
+document.getElementById('ignoreWhitespace').onchange = function (e) {
   changed();
 };
 
-var inputs = document.getElementsByClassName("change");
+var inputs = document.getElementsByClassName('change');
 inputs.current = 0;
 
 function next_diff() {
@@ -100,7 +98,7 @@ function next_diff() {
 
   window.scrollTo({
     top: offsetPosition,
-    behavior: "smooth",
+    behavior: 'smooth',
   });
 
   inputs.current++;

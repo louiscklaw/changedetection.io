@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:bs": "npx browser-sync start -h 0.0.0.0 --proxy 'localhost:5000' --files \"./changedetectionio/**/*.py\" --files \"./changedetectionio/**/*.html\""
+    "watch:bs": "npx browser-sync start -h 0.0.0.0 --proxy 'localhost:5000' --files \"./changedetectionio/**/*.py\" --files \"./changedetectionio/**/*.html\"",
+    "test_on_change": "onchange --await-write-finish 500 '**/*.html' -- prettier --write '{{file}}'"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/louiscklaw/changedetection.io/issues"
   },
-  "homepage": "https://github.com/louiscklaw/changedetection.io#readme"
+  "homepage": "https://github.com/louiscklaw/changedetection.io#readme",
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "prettier-plugin-jinja-template": "^0.5.0"
+  }
 }

@@ -2,11 +2,11 @@ name: Build and push containers
 
 on:
   # Automatically triggered by a testing workflow passing, but this is only checked when it lands in the `master`/default branch
-#  workflow_run:
-#    workflows: ["ChangeDetection.io Test"]
-#    branches: [master]
-#    tags: ['0.*']
-#    types: [completed]
+  #  workflow_run:
+  #    workflows: ["ChangeDetection.io Test"]
+  #    branches: [master]
+  #    tags: ['0.*']
+  #    types: [completed]
 
   # Or a new tagged release
   release:
@@ -20,18 +20,18 @@ jobs:
   metadata:
     runs-on: ubuntu-latest
     steps:
-    - name: Show metadata
-      run: |
-        echo SHA ${{ github.sha }}
-        echo github.ref:  ${{ github.ref }}
-        echo github_ref: $GITHUB_REF
-        echo Event name: ${{ github.event_name }}
-        echo Ref ${{ github.ref }}
-        echo c: ${{ github.event.workflow_run.conclusion }}
-        echo r: ${{ github.event.workflow_run }}
-        echo tname: "${{ github.event.release.tag_name }}"
-        echo headbranch: -${{ github.event.workflow_run.head_branch }}-
-        set
+      - name: Show metadata
+        run: |
+          echo SHA ${{ github.sha }}
+          echo github.ref:  ${{ github.ref }}
+          echo github_ref: $GITHUB_REF
+          echo Event name: ${{ github.event_name }}
+          echo Ref ${{ github.ref }}
+          echo c: ${{ github.event.workflow_run.conclusion }}
+          echo r: ${{ github.event.workflow_run }}
+          echo tname: "${{ github.event.release.tag_name }}"
+          echo headbranch: -${{ github.event.workflow_run.head_branch }}-
+          set
 
   build-push-containers:
     runs-on: ubuntu-latest
@@ -98,8 +98,8 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/arm/v6,linux/arm/v7
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
-# Looks like this was disabled
-#          provenance: false
+      # Looks like this was disabled
+      #          provenance: false
 
       # A new tagged release is required, which builds :tag and :latest
       - name: Build and push :tag
@@ -118,8 +118,8 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/arm/v6,linux/arm/v7
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
-# Looks like this was disabled
-#          provenance: false
+      # Looks like this was disabled
+      #          provenance: false
 
       - name: Image digest
         run: echo step SHA ${{ steps.vars.outputs.sha_short }} tag ${{steps.vars.outputs.tag}} branch ${{steps.vars.outputs.branch}} digest ${{ steps.docker_build.outputs.digest }}
