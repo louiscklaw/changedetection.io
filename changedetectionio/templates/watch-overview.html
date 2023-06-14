@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
   {% from '_helpers.jinja' import render_simple_field, render_field %}
+
   <script src="{{ url_for('static_content', group='js', filename='jquery-3.6.0.min.js') }}"></script>
   <script src="{{ url_for('static_content', group='js', filename='watch-overview.js') }}" defer></script>
 
@@ -13,8 +14,10 @@
       id="new-watch-form"
     >
       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+
       <fieldset>
         <legend>Add a new change detection watch</legend>
+
         <div id="watch-add-wrapper-zone">
           <div>
             {{ render_simple_field(form.url, placeholder="https://...", required=true) }}
@@ -32,8 +35,9 @@
           {{ render_simple_field(form.processor, title="Edit first then Watch") }}
         </div>
       </fieldset>
-      <span style="color: #eee; font-size: 80%"
-        ><img
+
+      <span style="color: #eee; font-size: 80%">
+        <img
           alt="Create a shareable link"
           style="height: 1em; display: inline-block"
           src="{{ url_for('static_content', group='images', filename='spread-white.svg') }}"
@@ -65,19 +69,24 @@
           style="background: #dd4242"
           name="op"
           value="clear-history"
-          >Clear/reset history</button
         >
-        <button class="pure-button button-secondary button-xsmall" style="background: #dd4242" name="op" value="delete"
-          >Delete</button
-        >
+          Clear/reset history
+        </button>
+        <button class="pure-button button-secondary button-xsmall" style="background: #dd4242" name="op" value="delete">
+          Delete
+        </button>
       </div>
-      {% if watches|length >= pagination.per_page %}{{ pagination.info }}{% endif %}
-      {% if search_q %}
-        <div id="search-result-info"
-          >Searching "<strong><i>{{ search_q }}</i></strong
-          >"</div
-        >
+      {% if watches|length >= pagination.per_page %}
+        {{ pagination.info }}
       {% endif %}
+
+      {% if search_q %}
+        <div id="search-result-info">
+          Searching "<strong><i>{{ search_q }}</i></strong
+          >"
+        </div>
+      {% endif %}
+
       <div>
         <a href="{{ url_for('index') }}" class="pure-button button-tag {{ 'active' if not active_tag }}">All</a>
         {% for tag in tags %}
@@ -89,7 +98,8 @@
         {% endfor %}
       </div>
 
-      {% set sort_order = sort_order or 'asc' %} {% set sort_attribute = sort_attribute or 'last_changed' %}
+      {% set sort_order = sort_order or 'asc' %}
+      {% set sort_attribute = sort_attribute or 'last_changed' %}
       {%
         set
         pagination_page = request.args.get('page', 0)
@@ -99,7 +109,8 @@
         <table class="pure-table pure-table-striped watch-table">
           <thead>
             <tr>
-              {% set link_order = "desc" if sort_order == 'asc' else "asc" %} {% set arrow_span = "" %}
+              {% set link_order = "desc" if sort_order == 'asc' else "asc" %}
+              {% set arrow_span = "" %}
               <th
                 ><input style="vertical-align: middle" type="checkbox" id="check-all" />
                 <a
@@ -297,27 +308,31 @@
                     >{% if watch.uuid in queued_uuids %}Queued{% else %}Recheck{% endif %}</a
                   >
 
-                  <a href="/api/clone?uuid={{ watch.uuid }}" class="pure-button pure-button-primary">Copy</a>
-
-                  <a href="{{ url_for('edit_page', uuid=watch.uuid) }}" class="pure-button pure-button-primary">Edit</a>
+                  <a href="{{ url_for('edit_page', uuid=watch.uuid) }}" class="pure-button pure-button-primary">
+                    Edit
+                  </a>
 
                   {% if watch.history_n >= 2 %}
                     <a
                       href="{{ url_for('diff_history_page', uuid=watch.uuid) }}"
                       target="{{ watch.uuid }}"
                       class="pure-button pure-button-primary diff-link"
-                      >Diff</a
                     >
+                      Diff
+                    </a>
                   {% else %}
                     {% if watch.history_n == 1 or (watch.history_n ==0 and watch.error_text_ctime ) %}
                       <a
                         href="{{ url_for('preview_page', uuid=watch.uuid) }}"
                         target="{{ watch.uuid }}"
                         class="pure-button pure-button-primary"
-                        >Preview</a
                       >
+                        Preview
+                      </a>
                     {% endif %}
                   {% endif %}
+
+                  <a href="/api/clone?uuid={{ watch.uuid }}" class="pure-button pure-button-primary"> Copy </a>
                 </td>
               </tr>
             {% endfor %}
@@ -326,26 +341,29 @@
         <ul id="post-list-buttons">
           {% if has_unviewed %}
             <li>
-              <a href="{{ url_for('mark_all_viewed', tag=request.args.get('tag')) }}" class="pure-button button-tag"
-                >Mark all viewed</a
-              >
+              <a href="{{ url_for('mark_all_viewed', tag=request.args.get('tag')) }}" class="pure-button button-tag">
+                Mark all viewed
+              </a>
             </li>
           {% endif %}
+
           <li>
             <a href="{{ url_for('form_watch_checknow', tag=active_tag) }}" class="pure-button button-tag"
               >Recheck all {% if active_tag %}in "{{ active_tag }}"{% endif %}</a
             >
           </li>
           <li>
-            <a href="{{ url_for('rss', tag=active_tag , token=app_rss_token) }}"
-              ><img
+            <a href="{{ url_for('rss', tag=active_tag , token=app_rss_token) }}">
+              <img
                 alt="RSS Feed"
                 id="feed-icon"
                 src="{{ url_for('static_content', group='images', filename='Generic_Feed-icon.svg') }}"
                 height="15"
-            /></a>
+              />
+            </a>
           </li>
         </ul>
+
         {{ pagination.links }}
       </div>
     </form>

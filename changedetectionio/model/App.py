@@ -37,7 +37,7 @@ class model(dict):
                     'notification_format': default_notification_format,
                     'notification_title': default_notification_title,
                     'notification_urls': [], # Apprise URL list
-                    'pager_size': 50,
+                    'pager_size': 999,
                     'password': False,
                     'render_anchor_tag_content': False,
                     'schema_version' : 0,
