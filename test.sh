@@ -4,6 +4,7 @@ set -x
 
 docker compose kill
 docker compose down
+docker volume rm changedetectionio_changedetection-data
 docker compose up -d
 docker compose logs -f
 

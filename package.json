@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:bs": "npx browser-sync start -h 0.0.0.0 --proxy 'localhost:5000' --files \"./changedetectionio/**/*.py\" --files \"./changedetectionio/**/*.html\"",
-    "test_on_change": "onchange --await-write-finish 500 '**/*.html' -- prettier --write '{{file}}'"
+    "watch:format": "onchange --await-write-finish 5 '**/*.html' -- prettier --write '{{file}}'"
   },
   "repository": {
     "type": "git",
