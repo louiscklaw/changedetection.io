@@ -1,0 +1,24 @@
+uuid,paused,title,remarks,url,body,fetch_backend,method,link_to_site,tags
+,TRUE,jobsdb/search/testing-engineer-jobs,jobsdb/search/testing-engineer-jobs,http://192.168.10.21:13010/jobsdb_search_jobs,,system,POST,https://hk.jobsdb.com/testing-engineer-jobs,jobsdb_search
+,TRUE,jobsdb/search/software-engineer-jobs,jobsdb/search/software-engineer-jobs,http://192.168.10.21:13010/jobsdb_search_jobs,,system,POST,https://hk.jobsdb.com/software-engineer-jobs,jobsdb_search
+,TRUE,jobsdb/search/validation-engineer-jobs,jobsdb/search/validation-engineer-jobs,http://192.168.10.21:13010/jobsdb_search_jobs,,system,POST,https://hk.jobsdb.com/validation-engineer-jobs,jobsdb_search
+,TRUE,jable_tv/model/河北彩花,jable_tv/model/河北彩花,http://192.168.10.21:13010/jable_model,,system,POST,https://jable.tv/models/saika-kawakita/,jabletv_model
+,TRUE,missav/actresses/吉高寧寧,missav/actresses/吉高寧寧,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/吉高寧寧,missav
+,TRUE,missav/actresses/禦園もも,missav/actresses/禦園もも,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/禦園もも,missav
+,TRUE,missav/actresses/白坂みあん,missav/actresses/白坂みあん,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/白坂みあん,missav
+,TRUE,missav/actresses/明里紬,missav/actresses/明里紬,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/明里紬,missav
+,TRUE,missav/actresses/櫻空桃,missav/actresses/櫻空桃,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/櫻空桃,missav
+,TRUE,missav/actresses/禦園もも,missav/actresses/禦園もも,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/禦園もも,missav
+,TRUE,missav/actresses/禦園もも,missav/actresses/禦園もも,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/禦園もも,missav
+,TRUE,youtube video @hkhoy,youtube video list for hoytv,http://192.168.10.21:13010/youtube_videos,,system,POST,https://www.youtube.com/@hkhoy/videos,"tags1,tags2"
+,TRUE,youtube video @RTHK,youtube video list for RTHK,http://192.168.10.21:13010/youtube_videos,,system,POST,https://www.youtube.com/@RTHK/videos,"tags1,tags2"
+,TRUE,youtube video @EggEggClubNewsChannel,youtube video list for EggEggClub,http://192.168.10.21:13010/youtube_videos,,system,POST,https://www.youtube.com/@EggEggClubNewsChannel/videos,"tags1,tags2"
+,TRUE,youtube video @ChannelCHK,youtube video list for ChannelC,http://192.168.10.21:13010/youtube_videos,,system,POST,https://www.youtube.com/@hkhoy/videos,"tags1,tags2"
+,TRUE,carousell_q cs,using google to search carousell with keyword cs,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/cs,carousell_q
+,TRUE,carousell_q excel,using google to search carousell with keyword excel,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/excel,carousell_q
+,TRUE,carousell_q it,using google to search carousell with keyword it,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/it,carousell_q
+,TRUE,carousell_q javascript,using google to search carousell with keyword javascript,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/javascript,carousell_q
+,TRUE,carousell_q programming,using google to search carousell with keyword programming,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/programming,carousell_q
+,TRUE,carousell_q python,using google to search carousell with keyword python,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/python,carousell_q
+,TRUE,carousell_q react,using google to search carousell with keyword react,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/react,carousell_q
+,TRUE,carousell_q vba,using google to search carousell with keyword vba,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/vba,carousell_q

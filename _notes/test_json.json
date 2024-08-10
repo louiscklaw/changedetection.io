@@ -1,0 +1,13 @@
+{
+    "watching": {
+        "helloworld": {
+            "title": null,
+            "url": "http://www.example.com",
+            "body": null,
+            "fetch_backend": "system",
+            "method": "GET",
+            "uuid": "helloworld",
+            "link_to_site": "http://www.example.com"
+        }
+    }
+}

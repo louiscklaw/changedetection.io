@@ -1,0 +1,426 @@
+{
+ "watching": {
+  "jobsdb_search_validation-engineer-jobs": {
+   "uuid": "jobsdb_search_validation-engineer-jobs",
+   "paused": true,
+   "title": "jobsdb/search/validation-engineer-jobs",
+   "remarks": "jobsdb/search/validation-engineer-jobs",
+   "url": "http://192.168.10.21:13010/jobsdb_search_jobs",
+   "body": "{\"url\":\"https://hk.jobsdb.com/validation-engineer-jobs\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://hk.jobsdb.com/validation-engineer-jobs",
+   "tags": [
+    "jobsdb_search"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "jable_tv_model_河北彩花": {
+   "uuid": "jable_tv_model_河北彩花",
+   "paused": true,
+   "title": "jable_tv/model/河北彩花",
+   "remarks": "jable_tv/model/河北彩花",
+   "url": "http://192.168.10.21:13010/jable_model",
+   "body": "{\"url\":\"https://jable.tv/models/saika-kawakita/\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://jable.tv/models/saika-kawakita/",
+   "tags": [
+    "jabletv_model"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "missav_actresses_吉高寧寧": {
+   "uuid": "missav_actresses_吉高寧寧",
+   "paused": true,
+   "title": "missav/actresses/吉高寧寧",
+   "remarks": "missav/actresses/吉高寧寧",
+   "url": "http://192.168.10.21:13010/missav_actress",
+   "body": "{\"url\":\"https://missav.com/dm42/actresses/吉高寧寧\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://missav.com/dm42/actresses/吉高寧寧",
+   "tags": [
+    "missav"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "missav_actresses_禦園もも": {
+   "uuid": "missav_actresses_禦園もも",
+   "paused": true,
+   "title": "missav/actresses/禦園もも",
+   "remarks": "missav/actresses/禦園もも",
+   "url": "http://192.168.10.21:13010/missav_actress",
+   "body": "{\"url\":\"https://missav.com/dm1/actresses/禦園もも\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://missav.com/dm1/actresses/禦園もも",
+   "tags": [
+    "missav"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "missav_actresses_白坂みあん": {
+   "uuid": "missav_actresses_白坂みあん",
+   "paused": true,
+   "title": "missav/actresses/白坂みあん",
+   "remarks": "missav/actresses/白坂みあん",
+   "url": "http://192.168.10.21:13010/missav_actress",
+   "body": "{\"url\":\"https://missav.com/dm1/actresses/白坂みあん\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://missav.com/dm1/actresses/白坂みあん",
+   "tags": [
+    "missav"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "missav_actresses_明里紬": {
+   "uuid": "missav_actresses_明里紬",
+   "paused": true,
+   "title": "missav/actresses/明里紬",
+   "remarks": "missav/actresses/明里紬",
+   "url": "http://192.168.10.21:13010/missav_actress",
+   "body": "{\"url\":\"https://missav.com/dm1/actresses/明里紬\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://missav.com/dm1/actresses/明里紬",
+   "tags": [
+    "missav"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "missav_actresses_櫻空桃": {
+   "uuid": "missav_actresses_櫻空桃",
+   "paused": true,
+   "title": "missav/actresses/櫻空桃",
+   "remarks": "missav/actresses/櫻空桃",
+   "url": "http://192.168.10.21:13010/missav_actress",
+   "body": "{\"url\":\"https://missav.com/dm1/actresses/櫻空桃\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://missav.com/dm1/actresses/櫻空桃",
+   "tags": [
+    "missav"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "youtube_video_hkhoy": {
+   "uuid": "youtube_video_hkhoy",
+   "paused": true,
+   "title": "youtube video @hkhoy",
+   "remarks": "youtube video list for hoytv",
+   "url": "http://192.168.10.21:13010/youtube_videos",
+   "body": "{\"url\":\"https://www.youtube.com/@hkhoy/videos\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://www.youtube.com/@hkhoy/videos",
+   "tags": [
+    "tags1",
+    "tags2"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "youtube_video_RTHK": {
+   "uuid": "youtube_video_RTHK",
+   "paused": true,
+   "title": "youtube video @RTHK",
+   "remarks": "youtube video list for RTHK",
+   "url": "http://192.168.10.21:13010/youtube_videos",
+   "body": "{\"url\":\"https://www.youtube.com/@RTHK/videos\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://www.youtube.com/@RTHK/videos",
+   "tags": [
+    "tags1",
+    "tags2"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "youtube_video_EggEggClubNewsChannel": {
+   "uuid": "youtube_video_EggEggClubNewsChannel",
+   "paused": true,
+   "title": "youtube video @EggEggClubNewsChannel",
+   "remarks": "youtube video list for EggEggClub",
+   "url": "http://192.168.10.21:13010/youtube_videos",
+   "body": "{\"url\":\"https://www.youtube.com/@EggEggClubNewsChannel/videos\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://www.youtube.com/@EggEggClubNewsChannel/videos",
+   "tags": [
+    "tags1",
+    "tags2"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "youtube_video_ChannelCHK": {
+   "uuid": "youtube_video_ChannelCHK",
+   "paused": true,
+   "title": "youtube video @ChannelCHK",
+   "remarks": "youtube video list for ChannelC",
+   "url": "http://192.168.10.21:13010/youtube_videos",
+   "body": "{\"url\":\"https://www.youtube.com/@hkhoy/videos\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://www.youtube.com/@hkhoy/videos",
+   "tags": [
+    "tags1",
+    "tags2"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_cs": {
+   "uuid": "carousell_q_cs",
+   "paused": true,
+   "title": "carousell_q cs",
+   "remarks": "using google to search carousell with keyword cs",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/cs\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/cs",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_excel": {
+   "uuid": "carousell_q_excel",
+   "paused": true,
+   "title": "carousell_q excel",
+   "remarks": "using google to search carousell with keyword excel",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/excel\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/excel",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_it": {
+   "uuid": "carousell_q_it",
+   "paused": true,
+   "title": "carousell_q it",
+   "remarks": "using google to search carousell with keyword it",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/it\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/it",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_javascript": {
+   "uuid": "carousell_q_javascript",
+   "paused": true,
+   "title": "carousell_q javascript",
+   "remarks": "using google to search carousell with keyword javascript",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/javascript\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/javascript",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_programming": {
+   "uuid": "carousell_q_programming",
+   "paused": true,
+   "title": "carousell_q programming",
+   "remarks": "using google to search carousell with keyword programming",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/programming\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/programming",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_python": {
+   "uuid": "carousell_q_python",
+   "paused": true,
+   "title": "carousell_q python",
+   "remarks": "using google to search carousell with keyword python",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/python\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/python",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_react": {
+   "uuid": "carousell_q_react",
+   "paused": true,
+   "title": "carousell_q react",
+   "remarks": "using google to search carousell with keyword react",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/react\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/react",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_vba": {
+   "uuid": "carousell_q_vba",
+   "paused": true,
+   "title": "carousell_q vba",
+   "remarks": "using google to search carousell with keyword vba",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/vba\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/vba",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  }
+ }
+}

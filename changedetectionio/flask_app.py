@@ -1144,7 +1144,9 @@ def changedetection_app(config=None, datastore_o=None):
                                  screenshot=screenshot_url,
                                  uuid=uuid,
                                  versions=dates, # All except current/last
-                                 watch_a=watch
+                                 watch_a=watch,
+                                 link_to_site=watch['link_to_site'],
+                                 remarks=watch['remarks']
                                  )
 
         return output
@@ -1233,7 +1235,9 @@ def changedetection_app(config=None, datastore_o=None):
                                  last_error=watch['last_error'],
                                  last_error_text=watch.get_error_text(),
                                  last_error_screenshot=watch.get_error_snapshot(),
-                                 versions=versions
+                                 versions=versions,
+                                 link_to_site=watch['link_to_site'],
+                                 remarks=watch['remarks']
                                 )
 
 

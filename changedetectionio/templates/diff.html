@@ -75,6 +75,14 @@
 </div>
 
 <div id="diff-ui">
+    {% if link_to_site %}
+        <a href="{{link_to_site}}" target="_blank">{{link_to_site}}</a>
+    {% endif %}
+
+    {% if remarks %}
+        <pre>{{remarks}}</pre>
+    {% endif %}
+
     <div class="tab-pane-inner" id="error-text">
         <div class="snapshot-age error">{{watch_a.error_text_ctime|format_seconds_ago}} seconds ago</div>
         <pre>

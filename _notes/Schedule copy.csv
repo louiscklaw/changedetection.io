@@ -1,0 +1,9 @@
+uuid,paused,title,remarks,url,body,fetch_backend,method,link_to_site,tags
+,FALSE,missav/actresses/????,missav/actresses/????,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/%E5%90%89%E9%AB%98%E5%AF%A7%E5%AF%A7,missav
+,TRUE,youtube video @hkhoy,youtube video list for hoytv,http://192.168.10.21:13010/youtube_videos,,system,POST,https://www.youtube.com/@hkhoy/videos,"tags1,tags2"
+,TRUE,youtube video @RTHK,youtube video list for RTHK,http://192.168.10.21:13010/youtube_videos,,system,POST,https://www.youtube.com/@RTHK/videos,"tags1,tags2"
+,TRUE,youtube video @EggEggClubNewsChannel,youtube video list for EggEggClub,http://192.168.10.21:13010/youtube_videos,,system,POST,https://www.youtube.com/@EggEggClubNewsChannel/videos,"tags1,tags2"
+,TRUE,youtube video @ChannelCHK,youtube video list for ChannelC,http://192.168.10.21:13010/youtube_videos,,system,POST,https://www.youtube.com/@hkhoy/videos,"tags1,tags2"
+,TRUE,carousell_q coding,using google to search carousell with keyword coding,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/coding,carousell_q
+,TRUE,carousell_q javascript,using google to search carousell with keyword javascript,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/javascript,carousell_q
+,TRUE,carousell_q python,using google to search carousell with keyword python,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/python,carousell_q
