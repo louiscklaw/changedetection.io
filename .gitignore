@@ -1,3 +1,7 @@
+**/*.del
+**/*.bak
+**/changedetection-data
+
 __pycache__
 .idea
 *.pyc
