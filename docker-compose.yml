@@ -6,11 +6,12 @@ volumes:
 services:
   # TODO: for new changedetect test,
   # test with my nodejs + expressjs + puppeteer server
-  new_changedetect:
+  changedetection:
+    container_name: new_changedetect
+
     # image: ghcr.io/dgtlmoon/changedetection.io
     image: 192.168.10.61:5000/new_changedetect
     build: .
-    container_name: changedetection
     hostname: changedetection
 
     # Configurable proxy list support, see https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration#proxy-list-support
@@ -86,3 +87,10 @@ services:
     #
     #        Absolute minimum seconds to recheck, overrides any watch minimum, change to 0 to disable
     #      - MINIMUM_SECONDS_RECHECK_TIME=3
+
+    deploy:
+      resources:
+        limits:
+          cpus: '0.7'
+        reservations:
+          cpus: '0.01'

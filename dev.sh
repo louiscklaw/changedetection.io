@@ -3,6 +3,7 @@
 set -ex
 
 cd /app/_notes
+    npm i 
     node ./generate.js
 cd /app
 
