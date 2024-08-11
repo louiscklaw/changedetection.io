@@ -112,3 +112,23 @@ uuid,paused,title,remarks,url,body,fetch_backend,method,link_to_site,tags
 ,TRUE,vscode extensions search gpt (Rating),search vscode extensions with keyword gpt (sort by Rating),http://192.168.10.21:13010/vscode_extensions_search_keyword,,system,POST,https://marketplace.visualstudio.com/search?term=gpt&target=VSCode&category=All%20categories&sortBy=Rating,vscode-extensions
 ,TRUE,vscode extensions search gpt (TrendingWeekly),search vscode extensions with keyword gpt (sort by TrendingWeekly),http://192.168.10.21:13010/vscode_extensions_search_keyword,,system,POST,https://marketplace.visualstudio.com/search?term=gpt&target=VSCode&category=All%20categories&sortBy=TrendingWeekly,vscode-extensions
 ,TRUE,vscode extensions search gpt,search vscode extensions with keyword gpt,http://192.168.10.21:13010/vscode_extensions_search_keyword,,system,POST,https://marketplace.visualstudio.com/search?term=gpt&target=VSCode&category=All%20categories&sortBy=Relevance,vscode-extensions
+,TRUE,carousell_q Python,using google to search carousell with keyword Python,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Python,carousell_q
+,TRUE,carousell_q JavaScript,using google to search carousell with keyword JavaScript,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/JavaScript,carousell_q
+,TRUE,carousell_q Java,using google to search carousell with keyword Java,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Java,carousell_q
+,TRUE,carousell_q C++,using google to search carousell with keyword C++,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/C++,carousell_q
+,TRUE,carousell_q C#,using google to search carousell with keyword C#,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/C#,carousell_q
+,TRUE,carousell_q Go,using google to search carousell with keyword Go,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Go,carousell_q
+,TRUE,carousell_q Ruby,using google to search carousell with keyword Ruby,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Ruby,carousell_q
+,TRUE,carousell_q Swift,using google to search carousell with keyword Swift,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Swift,carousell_q
+,TRUE,carousell_q PHP,using google to search carousell with keyword PHP,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/PHP,carousell_q
+,TRUE,carousell_q TypeScript,using google to search carousell with keyword TypeScript,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/TypeScript,carousell_q
+,TRUE,carousell_q Kotlin,using google to search carousell with keyword Kotlin,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Kotlin,carousell_q
+,TRUE,carousell_q Rust,using google to search carousell with keyword Rust,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Rust,carousell_q
+,TRUE,carousell_q Scala,using google to search carousell with keyword Scala,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Scala,carousell_q
+,TRUE,carousell_q Perl,using google to search carousell with keyword Perl,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Perl,carousell_q
+,TRUE,carousell_q Haskell,using google to search carousell with keyword Haskell,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Haskell,carousell_q
+,TRUE,carousell_q R,using google to search carousell with keyword R,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/R,carousell_q
+,TRUE,carousell_q Lua,using google to search carousell with keyword Lua,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Lua,carousell_q
+,TRUE,carousell_q Objective-C,using google to search carousell with keyword Objective-C,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Objective-C,carousell_q
+,TRUE,carousell_q Shell,using google to search carousell with keyword Shell,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Shell,carousell_q
+,TRUE,carousell_q Assembly,using google to search carousell with keyword Assembly,http://192.168.10.21:13010/carousell_q,,system,POST,https://carousell.com.hk/q/Assembly,carousell_q

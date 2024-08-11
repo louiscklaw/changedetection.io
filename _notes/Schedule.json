@@ -2331,6 +2331,446 @@
     "json:$.results.uniq_result",
     "json:$.request_body.url"
    ]
+  },
+  "carousell_q_Python": {
+   "uuid": "carousell_q_Python",
+   "paused": true,
+   "title": "carousell_q Python",
+   "remarks": "using google to search carousell with keyword Python",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Python\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Python",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_JavaScript": {
+   "uuid": "carousell_q_JavaScript",
+   "paused": true,
+   "title": "carousell_q JavaScript",
+   "remarks": "using google to search carousell with keyword JavaScript",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/JavaScript\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/JavaScript",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Java": {
+   "uuid": "carousell_q_Java",
+   "paused": true,
+   "title": "carousell_q Java",
+   "remarks": "using google to search carousell with keyword Java",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Java\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Java",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_C++": {
+   "uuid": "carousell_q_C++",
+   "paused": true,
+   "title": "carousell_q C++",
+   "remarks": "using google to search carousell with keyword C++",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/C++\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/C++",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_C#": {
+   "uuid": "carousell_q_C#",
+   "paused": true,
+   "title": "carousell_q C#",
+   "remarks": "using google to search carousell with keyword C#",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/C#\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/C#",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Go": {
+   "uuid": "carousell_q_Go",
+   "paused": true,
+   "title": "carousell_q Go",
+   "remarks": "using google to search carousell with keyword Go",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Go\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Go",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Ruby": {
+   "uuid": "carousell_q_Ruby",
+   "paused": true,
+   "title": "carousell_q Ruby",
+   "remarks": "using google to search carousell with keyword Ruby",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Ruby\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Ruby",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Swift": {
+   "uuid": "carousell_q_Swift",
+   "paused": true,
+   "title": "carousell_q Swift",
+   "remarks": "using google to search carousell with keyword Swift",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Swift\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Swift",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_PHP": {
+   "uuid": "carousell_q_PHP",
+   "paused": true,
+   "title": "carousell_q PHP",
+   "remarks": "using google to search carousell with keyword PHP",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/PHP\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/PHP",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_TypeScript": {
+   "uuid": "carousell_q_TypeScript",
+   "paused": true,
+   "title": "carousell_q TypeScript",
+   "remarks": "using google to search carousell with keyword TypeScript",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/TypeScript\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/TypeScript",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Kotlin": {
+   "uuid": "carousell_q_Kotlin",
+   "paused": true,
+   "title": "carousell_q Kotlin",
+   "remarks": "using google to search carousell with keyword Kotlin",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Kotlin\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Kotlin",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Rust": {
+   "uuid": "carousell_q_Rust",
+   "paused": true,
+   "title": "carousell_q Rust",
+   "remarks": "using google to search carousell with keyword Rust",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Rust\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Rust",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Scala": {
+   "uuid": "carousell_q_Scala",
+   "paused": true,
+   "title": "carousell_q Scala",
+   "remarks": "using google to search carousell with keyword Scala",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Scala\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Scala",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Perl": {
+   "uuid": "carousell_q_Perl",
+   "paused": true,
+   "title": "carousell_q Perl",
+   "remarks": "using google to search carousell with keyword Perl",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Perl\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Perl",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Haskell": {
+   "uuid": "carousell_q_Haskell",
+   "paused": true,
+   "title": "carousell_q Haskell",
+   "remarks": "using google to search carousell with keyword Haskell",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Haskell\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Haskell",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_R": {
+   "uuid": "carousell_q_R",
+   "paused": true,
+   "title": "carousell_q R",
+   "remarks": "using google to search carousell with keyword R",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/R\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/R",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Lua": {
+   "uuid": "carousell_q_Lua",
+   "paused": true,
+   "title": "carousell_q Lua",
+   "remarks": "using google to search carousell with keyword Lua",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Lua\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Lua",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Objective-C": {
+   "uuid": "carousell_q_Objective-C",
+   "paused": true,
+   "title": "carousell_q Objective-C",
+   "remarks": "using google to search carousell with keyword Objective-C",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Objective-C\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Objective-C",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Shell": {
+   "uuid": "carousell_q_Shell",
+   "paused": true,
+   "title": "carousell_q Shell",
+   "remarks": "using google to search carousell with keyword Shell",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Shell\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Shell",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "carousell_q_Assembly": {
+   "uuid": "carousell_q_Assembly",
+   "paused": true,
+   "title": "carousell_q Assembly",
+   "remarks": "using google to search carousell with keyword Assembly",
+   "url": "http://192.168.10.21:13010/carousell_q",
+   "body": "{\"url\":\"https://carousell.com.hk/q/Assembly\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://carousell.com.hk/q/Assembly",
+   "tags": [
+    "carousell_q"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
   }
  }
 }
