@@ -308,6 +308,28 @@
     "json:$.request_body.url"
    ]
   },
+  "jable.tv_models_四宮ありす": {
+   "uuid": "jable.tv_models_四宮ありす",
+   "paused": true,
+   "title": "jable.tv/models/四宮ありす",
+   "remarks": "jable.tv/models/四宮ありす",
+   "url": "http://192.168.10.21:13010/jable_model",
+   "body": "{\"url\":\"https://jable.tv/models/四宮ありす/\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://jable.tv/models/四宮ありす/",
+   "tags": [
+    "jabletv_model"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
   "jable.tv_models_上戶真理": {
    "uuid": "jable.tv_models_上戶真理",
    "paused": true,
@@ -1760,6 +1782,28 @@
     "json:$.request_body.url"
    ]
   },
+  "missav_actresses_四宮ありす": {
+   "uuid": "missav_actresses_四宮ありす",
+   "paused": true,
+   "title": "missav/actresses/四宮ありす",
+   "remarks": "missav/actresses/四宮ありす",
+   "url": "http://192.168.10.21:13010/missav_actress",
+   "body": "{\"url\":\"https://missav.com/dm42/actresses/四宮ありす\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://missav.com/dm42/actresses/四宮ありす",
+   "tags": [
+    "missav_actress"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
   "missav_actresses_白峰美羽": {
    "uuid": "missav_actresses_白峰美羽",
    "paused": true,
@@ -2012,6 +2056,50 @@
    "fetch_backend": "system",
    "method": "POST",
    "link_to_site": "https://missav.com/dm42/actresses/黑島玲衣",
+   "tags": [
+    "missav_actress"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "missav_actresses_中森心々奈": {
+   "uuid": "missav_actresses_中森心々奈",
+   "paused": true,
+   "title": "missav/actresses/中森心々奈",
+   "remarks": "missav/actresses/中森心々奈",
+   "url": "http://192.168.10.21:13010/missav_actress",
+   "body": "{\"url\":\"https://missav.com/dm42/actresses/中森心々奈\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://missav.com/dm42/actresses/中森心々奈",
+   "tags": [
+    "missav_actress"
+   ],
+   "content_type": "application/json; charset=utf-8",
+   "headers": {
+    "Content-Type": "application/json"
+   },
+   "include_filters": [
+    "json:$.results.uniq_result",
+    "json:$.request_body.url"
+   ]
+  },
+  "missav_actresses_乙白沙也加": {
+   "uuid": "missav_actresses_乙白沙也加",
+   "paused": true,
+   "title": "missav/actresses/乙白沙也加",
+   "remarks": "missav/actresses/乙白沙也加",
+   "url": "http://192.168.10.21:13010/missav_actress",
+   "body": "{\"url\":\"https://missav.com/dm42/actresses/乙白沙也加\",\"wait_before_read_s\":10,\"replace_filter\":[\"\\n\",\"^ +$\",\"^.*ago$\",\"^.*views$\",\"^.*Now playing$\",\"^\\\\d+:\\\\d+$\",\"^\\\\d+:\\\\d+:\\\\d+$\"]}",
+   "fetch_backend": "system",
+   "method": "POST",
+   "link_to_site": "https://missav.com/dm42/actresses/乙白沙也加",
    "tags": [
     "missav_actress"
    ],

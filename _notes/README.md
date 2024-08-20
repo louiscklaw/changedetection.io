@@ -1,23 +1,26 @@
 ```
-to update the monitor list
+// to update the monitor list
 
-cd to project directory: /home/logic/\_workspace/logic-NUC8i5BEH-tryout/src/changedetect/new-changedetect
+// cd to project directory: 
+$ cd /home/logic/\_workspace/logic-NUC8i5BEH-tryout/src/changedetect/new-changedetect
 
-# stop docker
+// stop docker
 $ docker compose kill
 
-# at project root
-cd /home/logic/_workspace/logic-NUC8i5BEH-tryout/src/changedetect/new-changedetect
+// at project root
+$ cd /home/logic/_workspace/logic-NUC8i5BEH-tryout/src/changedetect/new-changedetect
 sudo chown 1000:1000 -R .
 
 
-# update your csv
-cd _notes
-node ./generate.js
-node ./update.js
+// update your csv
+$ cd _notes
+$ node ./generate.js
+$ node ./update.js
+
+// should see the result `Updated JSON file written successfully!`
 
 
-# resume docker
+// resume docker
 $ docker compose up -d
 
 ```

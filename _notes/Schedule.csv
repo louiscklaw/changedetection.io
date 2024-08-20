@@ -13,6 +13,7 @@ uuid,paused,title,remarks,url,body,fetch_backend,method,link_to_site,tags
 ,TRUE,jable.tv/models/七森莉莉,jable.tv/models/七森莉莉,http://192.168.10.21:13010/jable_model,,system,POST,https://jable.tv/models/9ed214792a2144520430dd494c93f651/,jabletv_model
 ,TRUE,jable.tv/models/七瀨愛麗絲,jable.tv/models/七瀨愛麗絲,http://192.168.10.21:13010/jable_model,,system,POST,https://jable.tv/models/917eb88f450a64563e0bb7dd8aade035/,jabletv_model
 ,TRUE,jable.tv/models/三田真鈴,jable.tv/models/三田真鈴,http://192.168.10.21:13010/jable_model,,system,POST,https://jable.tv/models/三田真鈴/,jabletv_model
+,TRUE,jable.tv/models/四宮ありす,jable.tv/models/四宮ありす,http://192.168.10.21:13010/jable_model,,system,POST,https://jable.tv/models/四宮ありす/,jabletv_model
 ,TRUE,jable.tv/models/上戶真理,jable.tv/models/上戶真理,http://192.168.10.21:13010/jable_model,,system,POST,https://jable.tv/models/a22bff92c5a3edd2066c4c7eef055bf2/,jabletv_model
 ,TRUE,jable.tv/models/五十嵐なつ,jable.tv/models/五十嵐なつ,http://192.168.10.21:13010/jable_model,,system,POST,https://jable.tv/models/e1f475853d7e69e8f300132b3a982ff4/,jabletv_model
 ,TRUE,jable.tv/models/五日市芽依,jable.tv/models/五日市芽依,http://192.168.10.21:13010/jable_model,,system,POST,https://jable.tv/models/54754319a72f8388c2a0849316bd4d15/,jabletv_model
@@ -84,6 +85,7 @@ uuid,paused,title,remarks,url,body,fetch_backend,method,link_to_site,tags
 ,TRUE,missav/actresses/白上咲花,missav/actresses/白上咲花,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/白上咲花,missav_actress
 ,TRUE,missav/actresses/白坂みあん,missav/actresses/白坂みあん,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/白坂みあん,missav_actress
 ,TRUE,missav/actresses/白坂みあん,missav/actresses/白坂みあん,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/白坂みあん,missav_actress
+,TRUE,missav/actresses/四宮ありす,missav/actresses/四宮ありす,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/四宮ありす,missav_actress
 ,TRUE,missav/actresses/白峰美羽,missav/actresses/白峰美羽,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/白峰美羽,missav_actress
 ,TRUE,missav/actresses/石川澪,missav/actresses/石川澪,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/石川澪,missav_actress
 ,TRUE,missav/actresses/禦園もも,missav/actresses/禦園もも,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/禦園もも,missav_actress
@@ -98,6 +100,8 @@ uuid,paused,title,remarks,url,body,fetch_backend,method,link_to_site,tags
 ,TRUE,missav/actresses/高坂ニナ,missav/actresses/高坂ニナ,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/高坂ニナ,missav_actress
 ,TRUE,missav/actresses/黑人,missav/actresses/黑人,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm1/actresses/黑人,missav_actress
 ,TRUE,missav/actresses/黑島玲衣,missav/actresses/黑島玲衣,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/黑島玲衣,missav_actress
+,TRUE,missav/actresses/中森心々奈,missav/actresses/中森心々奈,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/中森心々奈,missav_actress
+,TRUE,missav/actresses/乙白沙也加,missav/actresses/乙白沙也加,http://192.168.10.21:13010/missav_actress,,system,POST,https://missav.com/dm42/actresses/乙白沙也加,missav_actress
 ,TRUE,vscode extensions search ai (Installs),search vscode extensions with keyword ai (sort by Installs),http://192.168.10.21:13010/vscode_extensions_search_keyword,,system,POST,https://marketplace.visualstudio.com/search?term=ai&target=VSCode&category=All%20categories&sortBy=Installs,vscode-extensions
 ,TRUE,vscode extensions search ai (PublishedDate),search vscode extensions with keyword ai (sort by PublishedDate),http://192.168.10.21:13010/vscode_extensions_search_keyword,,system,POST,https://marketplace.visualstudio.com/search?term=ai&target=VSCode&category=All%20categories&sortBy=PublishedDate,vscode-extensions
 ,TRUE,vscode extensions search ai (Rating),search vscode extensions with keyword ai (sort by Rating),http://192.168.10.21:13010/vscode_extensions_search_keyword,,system,POST,https://marketplace.visualstudio.com/search?term=ai&target=VSCode&category=All%20categories&sortBy=Rating,vscode-extensions
